@@ -22,10 +22,10 @@ iframe의 경우 크기 조절을 위해 컨테이너를 랩핑해서 사용한�
 (비디오의 크기에 따라 조절하고 싶은 경우)
 ``` HTML
 <div class="media-container">
-                <div class="iframe-wrapper">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pBuZEGYXA6E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-            </div>
+    <div class="iframe-wrapper">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pBuZEGYXA6E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+</div>
 ```
 iframe 비디오의 크기를 유연하게 조절하고자 할 경우 iframe-wrapper 영역의 가로 크기는 100%로 설정하고 높이인 height 속성의 값은 0으로 할당한다.  
 그리고 padding-top 속성의 값을 비디오 크기의 가로 세로 비율에 따른 백분율 값으로 할당한다. 만약 비디오가 4대 3 비율일 경우 가로는 100% 세로는 75%로 지정한다.
